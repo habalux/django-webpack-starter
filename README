@@ -1,0 +1,11 @@
+This is a bare bones django project using npm and AdminLTE template.
+
+Short version to get it running:
+
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+npm install
+npm run build
+python manage.py migrate
+python manage.py runserver
